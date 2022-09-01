@@ -7,16 +7,33 @@
     <title>Id-Class</title>
     <style>
       section {
+        background-color: aqua;
+      }
+      .text-white {
+        color: white;
+      }
+      #title {
+        border-bottom: 1px solid red;
+      }
+
+      .f30 {
+        font-size: 70px;
+      }
+      .f10 {
+        font-size: 15px;
+      }
+      #subtitle {
+        border: 2px solid black;
       }
     </style>
   </head>
   <body>
     <main>
       <section>
-        <h1>Hello World</h1>
+        <h1 id="title" class="text-white f30">Hello World</h1>
       </section>
       <section>
-        <h2>Test MSG.</h2>
+        <h2 id="subtitle" class="text-white f10">Test MSG.</h2>
       </section>
     </main>
   </body>
